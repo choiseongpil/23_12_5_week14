@@ -10,10 +10,6 @@ def solution(planet_age):
     if answer > 1000:                              #만약 1000이하가 아니면 오류가 뜸
         raise ValueError("not answer <= 1000")
 
-    age = int(planet_age)                          #만약 자연수가 아니라면 오류가 뜸
-    if age <= 0:
-        raise ValueError("나이는 자연수여야 합니다.")
-
     return answer
 
 #코드를 테스트하기 위해서 예제를 들었다.
